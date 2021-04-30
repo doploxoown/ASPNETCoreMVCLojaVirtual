@@ -12,9 +12,25 @@ namespace LojaVirtual.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Index([FromForm]NewsletterEmail newsletter)
+        {
+
+            if (ModelState.IsValid)
+            {
+                //TODO - Adição no banco de dados
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return View();
+            }
+
         }
         public IActionResult Contato()
         {

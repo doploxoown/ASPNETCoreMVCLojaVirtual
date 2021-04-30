@@ -12967,11 +12967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Projeto\\LojaVirtual\\LojaVirtual.csproj",
+      "projectUniqueName": "C:\\Desenvolvimento\\ASPNETCoreMVCLojaVirtual\\Projeto\\LojaVirtual\\LojaVirtual.csproj",
       "projectName": "LojaVirtual",
-      "projectPath": "C:\\Users\\User\\Desktop\\Projeto\\LojaVirtual\\LojaVirtual.csproj",
+      "projectPath": "C:\\Desenvolvimento\\ASPNETCoreMVCLojaVirtual\\Projeto\\LojaVirtual\\LojaVirtual.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Projeto\\LojaVirtual\\obj\\",
+      "outputPath": "C:\\Desenvolvimento\\ASPNETCoreMVCLojaVirtual\\Projeto\\LojaVirtual\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -53,3 +53,35 @@ C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Seção 08\01_Fim\LojaVirtual\obj\De
 C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Seção 08\01_Fim\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CarrinhoCompras.g.cshtml.cs
 C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Seção 08\01_Fim\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.Libraries.Lang.Mensagem.resources
 C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Seção 08\01_Fim\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.deps.json
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.runtimeconfig.json
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.runtimeconfig.dev.json
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.dll
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.pdb
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.Views.dll
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.Views.pdb
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csprojAssemblyReference.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.Libraries.Lang.Mensagem.resources
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorAssemblyInfo.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorAssemblyInfo.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.AssemblyInfoInputs.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.AssemblyInfo.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.TagHelpers.input.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.TagHelpers.output.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorCoreGenerate.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CadastroCliente.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\CarrinhoCompras.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Index.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorTargetAssemblyInfo.cache
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorTargetAssemblyInfo.cs
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.Views.pdb
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.dll
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.pdb
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CopyComplete
