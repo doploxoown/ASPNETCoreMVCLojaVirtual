@@ -85,3 +85,4 @@ C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcor
 C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.dll
 C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.pdb
 C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CopyComplete
+C:\Desenvolvimento\ASPNETCoreMVCLojaVirtual\Projeto\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs

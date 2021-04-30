@@ -25,12 +25,12 @@ namespace LojaVirtual.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Index([FromForm]NewsletterEmail newsletter)
+        public IActionResult Index([FromForm]NewsletterEmail pNewsletter)
         {
 
             if (ModelState.IsValid)
             {
-                _banco.NewsletterEmails.Add(newsletter);
+                _banco.NewsletterEmails.Add(pNewsletter);
                 _banco.SaveChanges();
 
                 TempData["MSG_S"] = "E-mail cadastrado! Fique atento as novidades no seu e-mail!";
@@ -95,8 +95,25 @@ namespace LojaVirtual.Controllers
         {
             return View();
         }
+        [HttpGet]
         public IActionResult CadastroCliente()
         {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult CadastroCliente([FromForm]Cliente pCliente)
+        {
+            if (ModelState.IsValid)
+            {
+                _banco.Clientes.Add(pCliente);
+                _banco.SaveChanges();
+
+                TempData["MSG_S"] = "Cadastro Realizado com Sucesso!";
+
+                //TODO - Implementar redirecionamento diferenciados (Painel, Carrinho de compras e etc).
+                return RedirectToAction(nameof(CadastroCliente));
+            }
+
             return View();
         }
         public IActionResult CarrinhoCompras()
