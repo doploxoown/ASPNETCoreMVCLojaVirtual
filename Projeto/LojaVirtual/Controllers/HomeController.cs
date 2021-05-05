@@ -6,8 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using LojaVirtual.DataBase;
 using LojaVirtual.Libraries.Email;
+using LojaVirtual.Libraries.Login;
 using LojaVirtual.Models;
 using LojaVirtual.Repositories.Contracts;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LojaVirtual.Controllers
@@ -16,10 +18,12 @@ namespace LojaVirtual.Controllers
     {
         private IClienteRepository _repositoryCliente;
         private INewsletterRepository _repositoryNewsletter;
-        public HomeController(IClienteRepository repositoryCliente, INewsletterRepository repositoryNewsletter)
+        private LoginCliente _loginCliente;
+        public HomeController(IClienteRepository repositoryCliente, INewsletterRepository repositoryNewsletter, LoginCliente loginCliente)
         {
             _repositoryCliente = repositoryCliente;
             _repositoryNewsletter = repositoryNewsletter;
+            _loginCliente = loginCliente;
         }
 
         [HttpGet]
@@ -93,10 +97,43 @@ namespace LojaVirtual.Controllers
 
             return View("Contato");
         }
+
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Login([FromForm]Cliente cliente)
+        {
+            Cliente vCliente = _repositoryCliente.Login(cliente.Email, cliente.Senha);
+
+            if (vCliente != null)
+            {
+                _loginCliente.Login(vCliente);
+
+                return new RedirectResult(Url.Action(nameof(Painel)));
+            }
+            else
+            {
+                ViewData["MSG_E"] = "Usuário não encontrado!";
+                return View();
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Painel()
+        {
+            Cliente cliente = _loginCliente.GetCliente();
+            if (cliente != null)
+            {
+                return new ContentResult() { Content = "Usuário: " + cliente.Id + ". E-mail: " + cliente.Email + " - Dt. Nascimento: " + cliente.DataNascimento.ToShortDateString() + " Logado!" };                
+            }
+            else
+                return new ContentResult() { Content = "Acesso Negado!" };
+        }
+
         [HttpGet]
         public IActionResult CadastroCliente()
         {
